@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="10" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-26T22:56:49Z" name="MindtekTestNG" finished-at="2023-02-26T22:58:09Z" duration-ms="79660">
+    <groups>
+      <group name="loginWithInvalidPassword">
+        <method signature="SauceDemoTests.loginWithInvalidPassword()[pri:0, instance:tests.SauceDemoTests@5af97850]" name="loginWithInvalidPassword" class="tests.SauceDemoTests"/>
+      </group> <!-- loginWithInvalidPassword -->
+      <group name="selectingCities">
+        <method signature="BlazeDemoTests.verifyDestinationCities()[pri:0, instance:tests.BlazeDemoTests@5ef60048]" name="verifyDestinationCities" class="tests.BlazeDemoTests"/>
+        <method signature="BlazeDemoTests.verifyDestinationOfTheWeek()[pri:0, instance:tests.BlazeDemoTests@5ef60048]" name="verifyDestinationOfTheWeek" class="tests.BlazeDemoTests"/>
+      </group> <!-- selectingCities -->
+      <group name="verifyDestinationOfTheWeek">
+        <method signature="BlazeDemoTests.verifyDestinationOfTheWeek()[pri:0, instance:tests.BlazeDemoTests@5ef60048]" name="verifyDestinationOfTheWeek" class="tests.BlazeDemoTests"/>
+      </group> <!-- verifyDestinationOfTheWeek -->
+      <group name="smoke">
+        <method signature="StoreAppTests.verifyCreateAccount(java.lang.String, java.lang.String)[pri:0, instance:tests.StoreAppTests@1d548a08]" name="verifyCreateAccount" class="tests.StoreAppTests"/>
+        <method signature="StoreAppTests.verifySignIn()[pri:0, instance:tests.StoreAppTests@1d548a08]" name="verifySignIn" class="tests.StoreAppTests"/>
+        <method signature="BlazeDemoTests.verifyDestinationCities()[pri:0, instance:tests.BlazeDemoTests@5ef60048]" name="verifyDestinationCities" class="tests.BlazeDemoTests"/>
+        <method signature="BlazeDemoTests.verifyDestinationOfTheWeek()[pri:0, instance:tests.BlazeDemoTests@5ef60048]" name="verifyDestinationOfTheWeek" class="tests.BlazeDemoTests"/>
+        <method signature="SauceDemoTests.loginWithInvalidPassword()[pri:0, instance:tests.SauceDemoTests@5af97850]" name="loginWithInvalidPassword" class="tests.SauceDemoTests"/>
+        <method signature="SauceDemoTests.verifyAddToCartFunctionality()[pri:0, instance:tests.SauceDemoTests@5af97850]" name="verifyAddToCartFunctionality" class="tests.SauceDemoTests"/>
+        <method signature="SauceDemoTests.verifyLoginFunctionality()[pri:1, instance:tests.SauceDemoTests@5af97850]" name="verifyLoginFunctionality" class="tests.SauceDemoTests"/>
+        <method signature="SauceDemoTests.verifyLoginFunctionalityNegative()[pri:0, instance:tests.SauceDemoTests@5af97850]" name="verifyLoginFunctionalityNegative" class="tests.SauceDemoTests"/>
+        <method signature="SauceDemoTests.verifyRemoveBtnOnCartFunctionality()[pri:0, instance:tests.SauceDemoTests@5af97850]" name="verifyRemoveBtnOnCartFunctionality" class="tests.SauceDemoTests"/>
+      </group> <!-- smoke -->
+      <group name="verifyFlightInfo">
+        <method signature="BlazeDemoTests.verifyFlightInfo()[pri:0, instance:tests.BlazeDemoTests@5ef60048]" name="verifyFlightInfo" class="tests.BlazeDemoTests"/>
+      </group> <!-- verifyFlightInfo -->
+      <group name="priceFilter">
+        <method signature="SauceDemoTests.verifyPriceHighToLow()[pri:2, instance:tests.SauceDemoTests@5af97850]" name="verifyPriceHighToLow" class="tests.SauceDemoTests"/>
+      </group> <!-- priceFilter -->
+      <group name="MB-10648">
+        <method signature="BlazeDemoTests.verifyDestinationCities()[pri:0, instance:tests.BlazeDemoTests@5ef60048]" name="verifyDestinationCities" class="tests.BlazeDemoTests"/>
+      </group> <!-- MB-10648 -->
+      <group name="login">
+        <method signature="SauceDemoTests.loginWithInvalidPassword()[pri:0, instance:tests.SauceDemoTests@5af97850]" name="loginWithInvalidPassword" class="tests.SauceDemoTests"/>
+        <method signature="SauceDemoTests.verifyLoginFunctionality()[pri:1, instance:tests.SauceDemoTests@5af97850]" name="verifyLoginFunctionality" class="tests.SauceDemoTests"/>
+        <method signature="SauceDemoTests.verifyLoginFunctionalityNegative()[pri:0, instance:tests.SauceDemoTests@5af97850]" name="verifyLoginFunctionalityNegative" class="tests.SauceDemoTests"/>
+      </group> <!-- login -->
+      <group name="verifyRemoveBtnOnCartFunctionality">
+        <method signature="SauceDemoTests.verifyRemoveBtnOnCartFunctionality()[pri:0, instance:tests.SauceDemoTests@5af97850]" name="verifyRemoveBtnOnCartFunctionality" class="tests.SauceDemoTests"/>
+      </group> <!-- verifyRemoveBtnOnCartFunctionality -->
+      <group name="cart">
+        <method signature="SauceDemoTests.verifyAddToCartFunctionality()[pri:0, instance:tests.SauceDemoTests@5af97850]" name="verifyAddToCartFunctionality" class="tests.SauceDemoTests"/>
+        <method signature="SauceDemoTests.verifyCheckOutTotal()[pri:0, instance:tests.SauceDemoTests@5af97850]" name="verifyCheckOutTotal" class="tests.SauceDemoTests"/>
+        <method signature="SauceDemoTests.verifyRemoveBtnOnCartFunctionality()[pri:0, instance:tests.SauceDemoTests@5af97850]" name="verifyRemoveBtnOnCartFunctionality" class="tests.SauceDemoTests"/>
+      </group> <!-- cart -->
+      <group name="verifyCreateAccount">
+        <method signature="StoreAppTests.verifyCreateAccount(java.lang.String, java.lang.String)[pri:0, instance:tests.StoreAppTests@1d548a08]" name="verifyCreateAccount" class="tests.StoreAppTests"/>
+      </group> <!-- verifyCreateAccount -->
+      <group name="verifyLoginFunctionality">
+        <method signature="SauceDemoTests.verifyLoginFunctionality()[pri:1, instance:tests.SauceDemoTests@5af97850]" name="verifyLoginFunctionality" class="tests.SauceDemoTests"/>
+      </group> <!-- verifyLoginFunctionality -->
+      <group name="regression">
+        <method signature="StoreAppTests.verifyCreateAccount(java.lang.String, java.lang.String)[pri:0, instance:tests.StoreAppTests@1d548a08]" name="verifyCreateAccount" class="tests.StoreAppTests"/>
+        <method signature="StoreAppTests.verifySignIn()[pri:0, instance:tests.StoreAppTests@1d548a08]" name="verifySignIn" class="tests.StoreAppTests"/>
+        <method signature="BlazeDemoTests.verifyDestinationCities()[pri:0, instance:tests.BlazeDemoTests@5ef60048]" name="verifyDestinationCities" class="tests.BlazeDemoTests"/>
+        <method signature="BlazeDemoTests.verifyDestinationOfTheWeek()[pri:0, instance:tests.BlazeDemoTests@5ef60048]" name="verifyDestinationOfTheWeek" class="tests.BlazeDemoTests"/>
+        <method signature="BlazeDemoTests.verifyFlightInfo()[pri:0, instance:tests.BlazeDemoTests@5ef60048]" name="verifyFlightInfo" class="tests.BlazeDemoTests"/>
+        <method signature="SauceDemoTests.loginWithInvalidPassword()[pri:0, instance:tests.SauceDemoTests@5af97850]" name="loginWithInvalidPassword" class="tests.SauceDemoTests"/>
+        <method signature="SauceDemoTests.verifyAddToCartFunctionality()[pri:0, instance:tests.SauceDemoTests@5af97850]" name="verifyAddToCartFunctionality" class="tests.SauceDemoTests"/>
+        <method signature="SauceDemoTests.verifyCheckOutTotal()[pri:0, instance:tests.SauceDemoTests@5af97850]" name="verifyCheckOutTotal" class="tests.SauceDemoTests"/>
+        <method signature="SauceDemoTests.verifyLoginFunctionality()[pri:1, instance:tests.SauceDemoTests@5af97850]" name="verifyLoginFunctionality" class="tests.SauceDemoTests"/>
+        <method signature="SauceDemoTests.verifyLoginFunctionalityNegative()[pri:0, instance:tests.SauceDemoTests@5af97850]" name="verifyLoginFunctionalityNegative" class="tests.SauceDemoTests"/>
+        <method signature="SauceDemoTests.verifyPriceHighToLow()[pri:2, instance:tests.SauceDemoTests@5af97850]" name="verifyPriceHighToLow" class="tests.SauceDemoTests"/>
+        <method signature="SauceDemoTests.verifyRemoveBtnOnCartFunctionality()[pri:0, instance:tests.SauceDemoTests@5af97850]" name="verifyRemoveBtnOnCartFunctionality" class="tests.SauceDemoTests"/>
+      </group> <!-- regression -->
+      <group name="verifyAddToCartFunctionality">
+        <method signature="SauceDemoTests.verifyAddToCartFunctionality()[pri:0, instance:tests.SauceDemoTests@5af97850]" name="verifyAddToCartFunctionality" class="tests.SauceDemoTests"/>
+      </group> <!-- verifyAddToCartFunctionality -->
+      <group name="verifyLoginFunctionalityNegative">
+        <method signature="SauceDemoTests.verifyLoginFunctionalityNegative()[pri:0, instance:tests.SauceDemoTests@5af97850]" name="verifyLoginFunctionalityNegative" class="tests.SauceDemoTests"/>
+      </group> <!-- verifyLoginFunctionalityNegative -->
+      <group name="verifyPriceHighToLow">
+        <method signature="SauceDemoTests.verifyPriceHighToLow()[pri:2, instance:tests.SauceDemoTests@5af97850]" name="verifyPriceHighToLow" class="tests.SauceDemoTests"/>
+      </group> <!-- verifyPriceHighToLow -->
+      <group name="storeApp">
+        <method signature="StoreAppTests.verifyCreateAccount(java.lang.String, java.lang.String)[pri:0, instance:tests.StoreAppTests@1d548a08]" name="verifyCreateAccount" class="tests.StoreAppTests"/>
+        <method signature="StoreAppTests.verifySignIn()[pri:0, instance:tests.StoreAppTests@1d548a08]" name="verifySignIn" class="tests.StoreAppTests"/>
+      </group> <!-- storeApp -->
+      <group name="verifyDestinationCities">
+        <method signature="BlazeDemoTests.verifyDestinationCities()[pri:0, instance:tests.BlazeDemoTests@5ef60048]" name="verifyDestinationCities" class="tests.BlazeDemoTests"/>
+      </group> <!-- verifyDestinationCities -->
+      <group name="verifyCheckOutTotal">
+        <method signature="SauceDemoTests.verifyCheckOutTotal()[pri:0, instance:tests.SauceDemoTests@5af97850]" name="verifyCheckOutTotal" class="tests.SauceDemoTests"/>
+      </group> <!-- verifyCheckOutTotal -->
+      <group name="flights">
+        <method signature="BlazeDemoTests.verifyFlightInfo()[pri:0, instance:tests.BlazeDemoTests@5ef60048]" name="verifyFlightInfo" class="tests.BlazeDemoTests"/>
+      </group> <!-- flights -->
+      <group name="verifySignIn">
+        <method signature="StoreAppTests.verifySignIn()[pri:0, instance:tests.StoreAppTests@1d548a08]" name="verifySignIn" class="tests.StoreAppTests"/>
+      </group> <!-- verifySignIn -->
+    </groups>
+    <test started-at="2023-02-26T22:56:49Z" name="UI Automation" finished-at="2023-02-26T22:58:09Z" duration-ms="79660">
+      <class name="tests.SauceDemoTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SauceDemoTests@5af97850]" started-at="2023-02-26T22:56:49Z" name="setUp" finished-at="2023-02-26T22:56:57Z" duration-ms="7646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithInvalidPassword()[pri:0, instance:tests.SauceDemoTests@5af97850]" started-at="2023-02-26T22:56:57Z" name="loginWithInvalidPassword" finished-at="2023-02-26T22:56:58Z" duration-ms="882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithInvalidPassword -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceDemoTests@5af97850]" started-at="2023-02-26T22:56:58Z" name="tearDown" finished-at="2023-02-26T22:57:01Z" duration-ms="3283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SauceDemoTests@5af97850]" started-at="2023-02-26T22:57:01Z" name="setUp" finished-at="2023-02-26T22:57:02Z" duration-ms="981" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAddToCartFunctionality()[pri:0, instance:tests.SauceDemoTests@5af97850]" started-at="2023-02-26T22:57:02Z" name="verifyAddToCartFunctionality" finished-at="2023-02-26T22:57:03Z" duration-ms="1002" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAddToCartFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceDemoTests@5af97850]" started-at="2023-02-26T22:57:03Z" name="tearDown" finished-at="2023-02-26T22:57:07Z" duration-ms="3366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SauceDemoTests@5af97850]" started-at="2023-02-26T22:57:07Z" name="setUp" finished-at="2023-02-26T22:57:07Z" duration-ms="836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCheckOutTotal()[pri:0, instance:tests.SauceDemoTests@5af97850]" started-at="2023-02-26T22:57:07Z" name="verifyCheckOutTotal" finished-at="2023-02-26T22:57:09Z" duration-ms="1354" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckOutTotal -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceDemoTests@5af97850]" started-at="2023-02-26T22:57:09Z" name="tearDown" finished-at="2023-02-26T22:57:12Z" duration-ms="3175" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SauceDemoTests@5af97850]" started-at="2023-02-26T22:57:12Z" name="setUp" finished-at="2023-02-26T22:57:13Z" duration-ms="784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyLoginFunctionalityNegative()[pri:0, instance:tests.SauceDemoTests@5af97850]" started-at="2023-02-26T22:57:13Z" name="verifyLoginFunctionalityNegative" finished-at="2023-02-26T22:57:13Z" duration-ms="634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionalityNegative -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceDemoTests@5af97850]" started-at="2023-02-26T22:57:13Z" name="tearDown" finished-at="2023-02-26T22:57:17Z" duration-ms="3264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.SauceDemoTests@5af97850]" started-at="2023-02-26T22:57:17Z" name="setUp" finished-at="2023-02-26T22:57:17Z" duration-ms="788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyRemoveBtnOnCartFunctionality()[pri:0, instance:tests.SauceDemoTests@5af97850]" started-at="2023-02-26T22:57:17Z" name="verifyRemoveBtnOnCartFunctionality" finished-at="2023-02-26T22:57:19Z" duration-ms="1101" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRemoveBtnOnCartFunctionality -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SauceDemoTests@5af97850]" started-at="2023-02-26T22:57:19Z" name="tearDown" finished-at="2023-02-26T22:57:22Z" duration-ms="3213" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SauceDemoTests -->
+      <class name="tests.StoreAppTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.StoreAppTests@1d548a08]" started-at="2023-02-26T22:57:38Z" name="setUp" finished-at="2023-02-26T22:57:39Z" duration-ms="833" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCreateAccount(java.lang.String, java.lang.String)[pri:0, instance:tests.StoreAppTests@1d548a08]" started-at="2023-02-26T22:57:39Z" name="verifyCreateAccount" data-provider="signUpTestData" finished-at="2023-02-26T22:57:46Z" duration-ms="6893" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Harsh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Patel]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.StoreAppTests@1d548a08]" started-at="2023-02-26T22:57:46Z" name="tearDown" finished-at="2023-02-26T22:57:49Z" duration-ms="3234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.StoreAppTests@1d548a08]" started-at="2023-02-26T22:57:49Z" name="setUp" finished-at="2023-02-26T22:57:50Z" duration-ms="819" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCreateAccount(java.lang.String, java.lang.String)[pri:0, instance:tests.StoreAppTests@1d548a08]" started-at="2023-02-26T22:57:50Z" name="verifyCreateAccount" data-provider="signUpTestData" finished-at="2023-02-26T22:57:56Z" duration-ms="6386" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jane]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Doe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.StoreAppTests@1d548a08]" started-at="2023-02-26T22:57:56Z" name="tearDown" finished-at="2023-02-26T22:57:59Z" duration-ms="3231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.StoreAppTests@1d548a08]" started-at="2023-02-26T22:57:59Z" name="setUp" finished-at="2023-02-26T22:58:00Z" duration-ms="827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyCreateAccount(java.lang.String, java.lang.String)[pri:0, instance:tests.StoreAppTests@1d548a08]" started-at="2023-02-26T22:58:00Z" name="verifyCreateAccount" data-provider="signUpTestData" finished-at="2023-02-26T22:58:06Z" duration-ms="5672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kim]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateAccount -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.StoreAppTests@1d548a08]" started-at="2023-02-26T22:58:06Z" name="tearDown" finished-at="2023-02-26T22:58:09Z" duration-ms="3229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.StoreAppTests -->
+      <class name="tests.BlazeDemoTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.BlazeDemoTests@5ef60048]" started-at="2023-02-26T22:57:22Z" name="setUp" finished-at="2023-02-26T22:57:23Z" duration-ms="804" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDestinationCities()[pri:0, instance:tests.BlazeDemoTests@5ef60048]" started-at="2023-02-26T22:57:23Z" name="verifyDestinationCities" finished-at="2023-02-26T22:57:24Z" duration-ms="1111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDestinationCities -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BlazeDemoTests@5ef60048]" started-at="2023-02-26T22:57:24Z" name="tearDown" finished-at="2023-02-26T22:57:27Z" duration-ms="3296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.BlazeDemoTests@5ef60048]" started-at="2023-02-26T22:57:27Z" name="setUp" finished-at="2023-02-26T22:57:28Z" duration-ms="789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyDestinationOfTheWeek()[pri:0, instance:tests.BlazeDemoTests@5ef60048]" started-at="2023-02-26T22:57:28Z" name="verifyDestinationOfTheWeek" finished-at="2023-02-26T22:57:29Z" duration-ms="1127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDestinationOfTheWeek -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BlazeDemoTests@5ef60048]" started-at="2023-02-26T22:57:29Z" name="tearDown" finished-at="2023-02-26T22:57:32Z" duration-ms="3203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.BlazeDemoTests@5ef60048]" started-at="2023-02-26T22:57:32Z" name="setUp" finished-at="2023-02-26T22:57:33Z" duration-ms="770" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFlightInfo()[pri:0, instance:tests.BlazeDemoTests@5ef60048]" started-at="2023-02-26T22:57:33Z" name="verifyFlightInfo" finished-at="2023-02-26T22:57:35Z" duration-ms="1809" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Virgin America] but found [United],
+expected [43] but found [UA954],
+expected [472.56] but found [400]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Virgin America] but found [United],
+expected [43] but found [UA954],
+expected [472.56] but found [400]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+at tests.BlazeDemoTests.verifyFlightInfo(BlazeDemoTests.java:72)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightInfo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BlazeDemoTests@5ef60048]" started-at="2023-02-26T22:57:35Z" name="tearDown" finished-at="2023-02-26T22:57:38Z" duration-ms="3280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.BlazeDemoTests -->
+    </test> <!-- UI Automation -->
+  </suite> <!-- MindtekTestNG -->
+</testng-results>

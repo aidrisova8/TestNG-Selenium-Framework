@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="80.121" tests="11" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="18"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\aydi1\.m2\repository\webdriver\chromedriver\win32\110.0.5481.77\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\aydi1\IdeaProjects\MindtekTestNGFramework\target\test-classes;C:\Users\aydi1\IdeaProjects\MindtekTestNGFramework\target\classes;C:\Users\aydi1\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\aydi1\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\aydi1\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\aydi1\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\aydi1\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\aydi1\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\aydi1\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\aydi1\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\aydi1\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\aydi1\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\aydi1\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\aydi1\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\aydi1\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\aydi1\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\aydi1\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\aydi1\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\aydi1\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\aydi1\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\aydi1\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\aydi1\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\aydi1\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\aydi1\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\aydi1\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\aydi1\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\aydi1\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\aydi1\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\aydi1\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\aydi1\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\aydi1\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\aydi1\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\aydi1\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\aydi1\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\aydi1\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\aydi1\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\aydi1\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="18"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin"/>
+    <property name="sun.java.command" value="C:\Users\aydi1\AppData\Local\Temp\surefire3927425528670418338\surefirebooter-20230226175649267_3.jar C:\Users\aydi1\AppData\Local\Temp\surefire3927425528670418338 2023-02-26T17-56-48_841-jvmRun1 surefire-20230226175649267_1tmp surefire_0-20230226175649267_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\aydi1\IdeaProjects\MindtekTestNGFramework\target\test-classes;C:\Users\aydi1\IdeaProjects\MindtekTestNGFramework\target\classes;C:\Users\aydi1\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\aydi1\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\aydi1\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\aydi1\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\aydi1\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\aydi1\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\aydi1\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\aydi1\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\aydi1\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\aydi1\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\aydi1\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\aydi1\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\aydi1\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\aydi1\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\aydi1\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\aydi1\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\aydi1\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\aydi1\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\aydi1\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\aydi1\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\aydi1\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\aydi1\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\aydi1\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\aydi1\.m2\repository\io\github\bonigarcia\webdrivermanager\3.8.1\webdrivermanager-3.8.1.jar;C:\Users\aydi1\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\aydi1\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\aydi1\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Users\aydi1\.m2\repository\org\apache\commons\commons-lang3\3.8.1\commons-lang3-3.8.1.jar;C:\Users\aydi1\.m2\repository\org\apache\httpcomponents\httpclient\4.5.6\httpclient-4.5.6.jar;C:\Users\aydi1\.m2\repository\org\apache\httpcomponents\httpcore\4.4.10\httpcore-4.4.10.jar;C:\Users\aydi1\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\aydi1\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\aydi1\.m2\repository\org\rauschig\jarchivelib\1.0.0\jarchivelib-1.0.0.jar;C:\Users\aydi1\.m2\repository\org\apache\commons\commons-compress\1.18\commons-compress-1.18.jar;C:\Users\aydi1\.m2\repository\org\jsoup\jsoup\1.11.3\jsoup-1.11.3.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\aydi1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-18.0.2.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\aydi1\IdeaProjects\MindtekTestNGFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\aydi1\AppData\Local\Temp\surefire3927425528670418338\surefirebooter-20230226175649267_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="18.0.2.1+1-1"/>
+    <property name="user.name" value="aydi1"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\aydi1\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\aydi1\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.2.1"/>
+    <property name="java.version" value="18.0.2.1"/>
+    <property name="user.dir" value="C:\Users\aydi1\IdeaProjects\MindtekTestNGFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-18.0.2.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\aydi1\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="18.0.2.1+1-1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="62.0"/>
+  </properties>
+  <testcase name="loginWithInvalidPassword" classname="tests.SauceDemoTests" time="0.881">
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 51091
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1677452217.366][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 26, 2023 5:56:57 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyAddToCartFunctionality" classname="tests.SauceDemoTests" time="1.003">
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 25490
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1677452222.606][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 26, 2023 5:57:02 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCheckOutTotal" classname="tests.SauceDemoTests" time="1.353">
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 10465
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1677452227.845][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 26, 2023 5:57:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyLoginFunctionalityNegative" classname="tests.SauceDemoTests" time="0.634">
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 12346
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1677452233.160][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 26, 2023 5:57:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyRemoveBtnOnCartFunctionality" classname="tests.SauceDemoTests" time="1.1">
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 23136
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1677452237.846][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 26, 2023 5:57:17 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyDestinationCities" classname="tests.BlazeDemoTests" time="1.11">
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 33835
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1677452242.964][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 26, 2023 5:57:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyDestinationOfTheWeek" classname="tests.BlazeDemoTests" time="1.126">
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 21943
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1677452248.160][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 26, 2023 5:57:28 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyFlightInfo" classname="tests.BlazeDemoTests" time="1.814">
+    <failure message="The following asserts failed:&#10;	expected [Virgin America] but found [United],&#10;	expected [43] but found [UA954],&#10;	expected [472.56] but found [400]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
+The following asserts failed:
+	expected [Virgin America] but found [United],
+	expected [43] but found [UA954],
+	expected [472.56] but found [400]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at tests.BlazeDemoTests.verifyFlightInfo(BlazeDemoTests.java:72)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:324)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:74)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:123)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:456)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:169)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:595)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:581)
+]]></failure>
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 58453
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1677452253.259][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 26, 2023 5:57:33 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCreateAccount[Harsh, Patel](1)" classname="tests.StoreAppTests" time="6.892">
+    <system-out><![CDATA[testUser253671@gmail.com
+6b4f4dce-0657-432e-9532-feaec3470f57
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 39811
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1677452259.189][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 26, 2023 5:57:39 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCreateAccount[Jane, Doe](2)" classname="tests.StoreAppTests" time="6.386">
+    <system-out><![CDATA[testUser880524@gmail.com
+ce628cd5-8dfe-465a-bed1-dcaaa55818a0
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 46096
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1677452270.137][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 26, 2023 5:57:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyCreateAccount[Kim, Yan](3)" classname="tests.StoreAppTests" time="5.674">
+    <system-out><![CDATA[testUser318744@gmail.com
+94e9e84b-35e9-45c4-9750-9374b49bbd90
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 110.0.5481.77 (65ed616c6e8ee3fe0ad64fe83796c020644d42af-refs/branch-heads/5481@{#839}) on port 61512
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1677452280.539][WARNING]: virtual void DevToolsClientImpl::AddListener(DevToolsEventListener *) subscribing a listener to the already connected DevToolsClient. Connection notification will not arrive.
+Feb 26, 2023 5:58:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

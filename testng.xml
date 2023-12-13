@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="All Test Suite"><test verbose="2" preserve-order="true" name="C:/Users/aydi1/IdeaProjects/MindtekTestNGFramework/src/test/java/projects/EditAndDeleteEmployee.java"><classes><class name="projects.EditAndDeleteEmployee"><methods><include name="editEmployee"/><include name="deleteTest"/><include name="deleteTest2"/></methods></class></classes></test></suite>
